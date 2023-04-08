@@ -2,6 +2,13 @@
 
 Minimal implementation of Conway's Game of Life.
 
+## Compilation
+
+```shell
+$ gcc main.c -lcurses -o main
+$ ./main
+```
+
 ## Keybinds:
 
 | Key   | Action     | Description                                      |
