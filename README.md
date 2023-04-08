@@ -1,4 +1,4 @@
-# CGOL
+# CGOL (pronounced "seagull")
 
 Minimal implementation of Conway's Game of Life.
 
@@ -9,7 +9,7 @@ $ gcc main.c -lcurses -o main
 $ ./main
 ```
 
-## Keybinds:
+## Bindings:
 
 | Key   | Action     | Description                                      |
 |-------|------------|--------------------------------------------------|
