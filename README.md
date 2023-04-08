@@ -1,6 +1,6 @@
-# CGOL (pronounced "seagull")
+# CGOL
 
-Minimal implementation of Conway's Game of Life.
+CGOL, pronounced "seagull," is a minimal implementation of Conway's Game of Life.
 
 ## Compilation
 
@@ -9,7 +9,7 @@ $ gcc main.c -lcurses -o main
 $ ./main
 ```
 
-## Bindings:
+## Interface
 
 | Key   | Action     | Description                                      |
 |-------|------------|--------------------------------------------------|
