@@ -34,6 +34,7 @@ int main(void) {
   keypad(stdscr, 1);
   curs_set(0);
   mousemask(ALL_MOUSE_EVENTS | REPORT_MOUSE_POSITION, NULL);
+  mouseinterval(0);
 
   int rows, cols;
   getmaxyx(stdscr, rows, cols);
