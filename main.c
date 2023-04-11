@@ -132,7 +132,10 @@ void cgol_draw(cgol_t *cgol, WINDOW *win) {
   for (int row = 0; row < cgol->rows; ++row) {
     for (int col = 0; col < cgol->cols; ++col) {
       char ch = *cgol_peek(cgol, row, col) & CGOL_LIFE ? cgol->skin : ' ';
-      mvwaddch(win, row, col, ch);
+
+      if (mvinch(row, col) != ch) {
+        mvwaddch(win, row, col, ch);
+      }
     }
   }
 }
